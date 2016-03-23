@@ -40,6 +40,21 @@ local function run(msg, matches)
 💭/promote : by <reply|id|username> 
 💭/demote : by <reply|id|username> 
 
+
+➕
+✅ plugins
+💭/conv text  : create photo text
+💭/del        :  delete msg
+💭/voice text :   text to voice
+💭/echo text  :    echo text
+ 
+base superflux
+
+Taylor v1 
+
+@negative_officiall
+@drdr23_bot
+
 ➖🔸➖🔹➖🔸➖🔹➖]]
     return text
   end
@@ -53,7 +68,6 @@ local function run(msg, matches)
 💭/close|open sticker
 💭/close|open file 
 💭/close|open audio
-💭/close|open talk
 
 ➕
 ✅Commands for control member
@@ -85,6 +99,20 @@ local function run(msg, matches)
 💭/promote : by <reply|id|username> 
 💭/demote : by <reply|id|username> 
 
+
+➕
+✅ plugins
+💭/conv text  : create photo text
+💭/del        :  delete msg
+💭/voice text :   text to voice
+💭/echo text  :    echo text
+ 
+base superflux
+
+Taylor v1 
+
+@negative_officiall
+@drdr23_bot
 ➖🔸➖🔹➖🔸➖🔹➖]]
     return text
   else
