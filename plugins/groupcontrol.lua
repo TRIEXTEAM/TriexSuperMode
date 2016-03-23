@@ -299,7 +299,7 @@ local function show_group_settings(msg, data)
         for k,v in pairs(data[tostring(msg.to.id)]['blocked_words']) do
             wordlist = wordlist..' / '..k
         end
-        local text = "Group settings:\nLock group name : "..settings.lock_name.."\nLock group photo : "..settings.lock_photo.."\nLock group member : "..settings.lock_member.."\nLock bot : "..settings.lock_bot.."\nLock share link : "..settings.lock_link.."\nLock for public : "..settings.lock_inviteme.."\nAnti sticker : "..settings.lock_sticker.."\nLock share image : "..settings.lock_image.."\nLock share file : "..settings.lock_file.."\n\nBlocked words : "..wordlist
+        local text = "Group settings:\n💭Lock group name : "..settings.lock_name.."\n💭Lock group photo : "..settings.lock_photo.."\n💭Lock group member : "..settings.lock_member.."\n💭Lock bot : "..settings.lock_bot.."\n💭Lock share link : "..settings.lock_link.."\n💭Lock for public : "..settings.lock_inviteme.."\n💭Anti sticker : "..settings.lock_sticker.."\n💭Lock share image : "..settings.lock_image.."\n💭Lock share file : "..settings.lock_file.."\n\n💭Blocked words : "..wordlist
         return text
     else
         local settings = data[tostring(msg.to.id)]['settings']
@@ -307,7 +307,7 @@ local function show_group_settings(msg, data)
         for k,v in pairs(data[tostring(msg.to.id)]['blocked_words']) do
             wordlist = wordlist..' / '..k
         end
-        local text = "Group settings:\nLock group member : "..settings.lock_member.."\nLock bot : "..settings.lock_bot.."\nLock share link : "..settings.lock_link.."\nLock for public : "..settings.lock_inviteme.."\nAnti sticker : "..settings.lock_sticker.."\nLock share image : "..settings.lock_image.."\nLock share file : "..settings.lock_file.."\nLock talking : "..settings.lock_talk.."\n\nBlocked words : "..wordlist
+        local text = "Group settings:\n💭Lock group member : "..settings.lock_member.."\n💭Lock bot : "..settings.lock_bot.."\n💭Lock share link : "..settings.lock_link.."\n💭Lock for public : "..settings.lock_inviteme.."\n💭Anti sticker : "..settings.lock_sticker.."\n💭Lock share image : "..settings.lock_image.."\n💭Lock share file : "..settings.lock_file.."\n💭Lock talking : "..settings.lock_talk.."\n\n💭Blocked words : "..wordlist
         return text
     end
 end
