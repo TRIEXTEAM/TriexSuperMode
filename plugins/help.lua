@@ -47,13 +47,11 @@ local function run(msg, matches)
 💭/del        :  delete msg
 💭/voice text :   text to voice
 💭/echo text  :    echo text
- 
-base superflux
 
-Taylor v1 
+Triex v1 
 
-@negative_officiall
-@drdr23_bot
+@TriexTeam
+@TriexSuperMode
 
 ➖🔸➖🔹➖🔸➖🔹➖]]
     return text
@@ -106,13 +104,11 @@ Taylor v1
 💭/del        :  delete msg
 💭/voice text :   text to voice
 💭/echo text  :    echo text
- 
-base superflux
 
-Taylor v1 
+Triex v1 
 
-@negative_officiall
-@drdr23_bot
+@TriexSuperMode
+@TriexTeam
 ➖🔸➖🔹➖🔸➖🔹➖]]
     return text
   else
