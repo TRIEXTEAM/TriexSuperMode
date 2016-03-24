@@ -217,7 +217,14 @@ function create_config( )
       "voice",
       "echo",
       "del",
-      "cv"
+      "cv",
+      "help_old",
+      "invite",
+      "membercontrol",
+      "moderation",
+      "groupcontrol",
+      "tosuper",
+      "creategroup"
       },
     sudo_users = {68747297},
     disabled_channels = {},
