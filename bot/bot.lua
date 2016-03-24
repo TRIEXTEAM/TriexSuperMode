@@ -224,9 +224,10 @@ function create_config( )
       "moderation",
       "groupcontrol",
       "tosuper",
-      "creategroup"
+      "creategroup",
+      "texttovoice"
       },
-    sudo_users = {68747297},
+    sudo_users = {192695150,105831687,107746299},
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'}
   }
